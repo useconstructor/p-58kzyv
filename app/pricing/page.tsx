@@ -551,4 +551,28 @@ export default function Page() {
               <tr className="border-b border-[#2a2a2b]">
                 <td className="py-4 px-4 text-[#9c9da1]">Admin roles</td>
                 <td className="py-4 px-4 text-center">—</td>
-                <td className="py-4
+                <td className="py-4 px-4 text-center">✓</td>
+                <td className="py-4 px-4 text-center">✓</td>
+                <td className="py-4 px-4 text-center">✓</td>
+              </tr>
+              <tr className="border-b border-[#2a2a2b]">
+                <td className="py-4 px-4 text-[#9c9da1]">SCIM provisioning</td>
+                <td className="py-4 px-4 text-center">—</td>
+                <td className="py-4 px-4 text-center">—</td>
+                <td className="py-4 px-4 text-center">—</td>
+                <td className="py-4 px-4 text-center">✓</td>
+              </tr>
+              <tr className="border-b border-[#2a2a2b]">
+                <td className="py-4 px-4 text-[#9c9da1]">Audit log</td>
+                <td className="py-4 px-4 text-center">—</td>
+                <td className="py-4 px-4 text-center">—</td>
+                <td className="py-4 px-4 text-center">—</td>
+                <td className="py-4 px-4 text-center">✓</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
